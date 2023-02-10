@@ -1,0 +1,99 @@
+/* reset css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+}
+h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+button, #ex{
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+/*start*/
+
+header{
+    background-color: #658fa3;
+    text-align: center;
+    color: #ffff;
+    padding: 2rem 0rem 2rem 0rem;
+    font-size: 2rem;
+}
+body{
+    background-color: #354d59;
+    color: #ffff;
+}
+main h2{
+    font-size: 2.1rem;
+    font-weight: lighter;
+    text-align: center;
+    margin: 5rem 0rem 2rem 0rem;
+}
+.warning, .success{
+    text-align: center;
+    line-height: 3.5rem;
+    width: 80rem;
+    margin: 2rem auto;
+    line-height: 3.5rem;
+    border-radius: .5rem;
+}
+
+.success{
+    background-color: #13a713;
+}
+.warning{ 
+    background-color: red;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    line-height: 3.5rem;
+}
+
+form label input{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: .5rem;
+}
+#ex{
+    background-color: #0e7f47;
+    width: 80rem;
+    margin: 0rem auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: .5rem;
+    color: #ffff;
+}
+main form a{
+    color: black;
+    text-align: center;
+    line-height: 3.5rem;
+    width: 80rem;
+    margin: 2rem auto;
+    line-height: 3.5rem;
+    border-radius: .5rem;
+    background-color: lightskyblue;
+}
